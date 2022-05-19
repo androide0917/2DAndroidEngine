@@ -19,11 +19,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    namespace 'co.com.gulupagames.spacecraft'
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation "androidx.core:core-ktx:1.7.0"
-    implementation project(':GameCore')
+    implementation project(':engine')
 }

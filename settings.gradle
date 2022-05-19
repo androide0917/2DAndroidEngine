@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Android2DEngine"
-include ':Spacecraft', ':GameCore'
+include ':spacecraft', ':engine'
