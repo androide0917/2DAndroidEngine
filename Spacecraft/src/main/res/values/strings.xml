@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- application name -->
+    <string name="app_name">Spacecraft</string>
+    <string name="no_connection_text">Spacecraft requiere de acceso a internet, revisa tu conexión y vuelve a intentarlo</string>
+
+    <!-- Development -->
+    <string name="app_id">817305967097</string>
+    <!-- Production -->
+    <!--<string name="app_id">358908407914</string>-->
+
+    <!--Development -->
+    <string name="achievement_bored">CgkI-bPt2eQXEAIQAQ</string>
+    <string name="achievement_really_bored">CgkI-bPt2eQXEAIQAg</string>
+    <string name="achievement_really_really_bored">CgkI-bPt2eQXEAIQAw</string>
+    <string name="achievement_great_score">CgkI-bPt2eQXEAIQBA</string>
+    <string name="achievement_really_great_score">CgkI-bPt2eQXEAIQBQ</string>
+    <string name="achievement_really_really_great_score">CgkI-bPt2eQXEAIQBg</string>
+    <string name="achievement_no_shoot_laser">CgkI-bPt2eQXEAIQBw</string>
+    <string name="achievement_no_shoot_bomb">CgkI-bPt2eQXEAIQCA</string>
+    <string name="spacecraft_leader_board">CgkI-bPt2eQXEAIQCQ</string>
+    <!--Production -->
+    <!--<string name="achievement_bored">CgkI6uDuhLkKEAIQAQ</string>
+    <string name="achievement_really_bored">CgkI6uDuhLkKEAIQAg</string>
+    <string name="achievement_really_really_bored">CgkI6uDuhLkKEAIQAw</string>
+    <string name="achievement_great_score">CgkI6uDuhLkKEAIQBA</string>
+    <string name="achievement_really_great_score">CgkI6uDuhLkKEAIQBQ</string>
+    <string name="achievement_really_really_great_score">CgkI6uDuhLkKEAIQBg</string>
+    <string name="achievement_no_shoot_laser">CgkI6uDuhLkKEAIQBw</string>
+    <string name="achievement_no_shoot_bomb">CgkI6uDuhLkKEAIQCA</string>
+    <string name="spacecraft_leader_board">CgkI6uDuhLkKEAIQCQ</string>-->
+
+</resources>

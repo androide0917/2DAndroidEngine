@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="base_separation">2dp</dimen>
+    <dimen name="minor_separation">1dp</dimen>
+    <dimen name="corner_radius">10dp</dimen>
+    <dimen name="title_small_padding">5dp</dimen>
+    <dimen name="title_big_padding">10dp</dimen>
+    <dimen name="action_button_size">70dp</dimen>
+    <dimen name="action_button_margin">15dp</dimen>
+    <dimen name="button_text_size">20dp</dimen>
+    <dimen name="button_text_height">50dp</dimen>
+    <dimen name="button_padding">10dp</dimen>
+    <dimen name="min_dialog_width">300dp</dimen>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="score_text_size">16sp</dimen>
+    <dimen name="status_width">110dp</dimen>
+    <dimen name="status_height">80dp</dimen>
+
+</resources>

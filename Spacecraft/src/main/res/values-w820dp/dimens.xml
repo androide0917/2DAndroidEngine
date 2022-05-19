@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="padding_left">20dp</dimen>
+    <dimen name="text_size">40sp</dimen>
+    <dimen name="score_text_size">36sp</dimen>
+    <dimen name="status_width">230dp</dimen>
+    <dimen name="status_height">160dp</dimen>
+</resources>

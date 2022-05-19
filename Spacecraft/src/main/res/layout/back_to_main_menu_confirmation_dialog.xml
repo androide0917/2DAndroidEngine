@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/corner_layout"
+    android:minWidth="@dimen/min_dialog_width"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/confirm_text"
+        style="@style/DialogTitle"
+        android:text="@string/exit_to_menu_confirmation" />
+
+    <include layout="@layout/optional_buttons" />
+
+</LinearLayout>

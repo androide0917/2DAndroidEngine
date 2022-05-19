@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">GameCore</string>
+
+    <!-- error de servicios de google play games-->
+    <string name="sign_in_error">Sig in error</string>
+
+    <!-- confirmaciones -->
+    <string name="accept_text">Aceptar</string>
+    <string name="cancel_text">Cancelar</string>
+    <string name="confirmation">Confirmación</string>
+    <string name="exit_confirmation">¿Estas seguro que quieres salir?</string>
+    <string name="exit_to_menu_confirmation">¿Quieres salir al menú principal?</string>
+    <!-- descripcion generica imagen -->
+    <string name="image_description">Imagen</string>
+    <!-- menu principal -->
+    <string name="menu_play">Jugar</string>
+    <string name="menu_achievements">Logros</string>
+    <string name="menu_leader_board">Tabla de líderes</string>
+    <string name="menu_exit">Salir</string>
+    <string name="menu_back">Volver</string>
+    <string name="menu_continue">Continuar</string>
+    <!-- status -->
+    <string name="game_over">¡Juego terminado!</string>
+    <string name="level">Nivel</string>
+    <string name="ready">¡Preparado!</string>
+    <string name="score_final">Tu puntuación fue:</string>
+    <string name="score">Puntos:</string>
+    <string name="lives">Vidas:</string>
+    <string name="bombs">Bombas:</string>
+    <string name="shields">Escudos:</string>
+    <string name="bombs_s">B</string>
+    <string name="score_s">P</string>
+    <string name="shields_s">E</string>
+    <string name="travel">Recorrido:</string>
+    <string name="score_status">Puntos: 0</string>
+    <string name="loadingImages">Cargando...</string>
+</resources>
