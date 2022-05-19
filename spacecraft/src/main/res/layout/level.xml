@@ -193,9 +193,11 @@
 
     <TextView
         android:id="@+id/central_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:visibility="gone" />
+        tools:visibility="visible"
+        android:gravity="center"
+        tools:text="Level 1"/>
 </RelativeLayout>

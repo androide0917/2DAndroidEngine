@@ -26,8 +26,6 @@ import co.com.gulupagames.spacecraft.levelengine.LevelEngine
 
 class GameActivity : BaseGameActivity(), View.OnClickListener {
     private var playButton: Button? = null
-    private var showAchievementsButton: Button? = null
-    private var showLeaderBoardButton: Button? = null
     private var exitButton: Button? = null
     private var levelPercent: ProgressBar? = null
     private var shields: ProgressBar? = null
@@ -104,14 +102,13 @@ class GameActivity : BaseGameActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View) {
-        if (v == playButton) {
-            runGame()
-        } else if (v == showAchievementsButton) {
-            //showAchievements();
-        } else if (v == showLeaderBoardButton) {
-            //showLeaderBoard();
-        } else if (v == exitButton) {
-            showExitDialogFragment()
+        when (v) {
+            playButton -> {
+                runGame()
+            }
+            exitButton -> {
+                showExitDialogFragment()
+            }
         }
     }
 
@@ -162,12 +159,8 @@ class GameActivity : BaseGameActivity(), View.OnClickListener {
         mainMenuLayout = findViewById<View>(R.id.options_layout_menu) as LinearLayout
         menuRelativeLayout = findViewById<View>(R.id.base_layout_menu) as RelativeLayout
         playButton = findViewById<View>(R.id.play_button) as Button
-        showAchievementsButton = findViewById<View>(R.id.showAchievementsButton) as Button
-        showLeaderBoardButton = findViewById<View>(R.id.showLeaderBoardButton) as Button
         exitButton = findViewById<View>(R.id.exit_button) as Button
         playButton?.setOnClickListener(this)
-        showAchievementsButton?.setOnClickListener(this)
-        showLeaderBoardButton?.setOnClickListener(this)
         exitButton?.setOnClickListener(this)
     }
 

@@ -7,7 +7,7 @@ android {
     compileSdkVersion 31
 
     defaultConfig {
-        applicationId "co.com.gulupagames.spacecraft"
+        applicationId "com.gulupagames.spacecraft"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 8

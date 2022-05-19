@@ -24,13 +24,13 @@ open class GameEntity(protected val levelSurfaceView: LevelSurfaceView) {
         get() = Rectangle(x, y, width, height)
 
     open fun paintCanvasView(canvas: Canvas) {
-        canvas.drawBitmap(
-            levelSurfaceView.baseGameActivity!!.spriteCache!!.getSprite(
-                spriteNames[currentFrame],
-                width.toFloat(),
-                height.toFloat()
-            )!!, x.toFloat(), y.toFloat(), null
-        )
+        levelSurfaceView.baseGameActivity?.spriteCache?.getSprite(
+            spriteNames[currentFrame],
+            width.toFloat(),
+            height.toFloat()
+        )?.let {
+            canvas.drawBitmap(it, x.toFloat(), y.toFloat(), null)
+        }
     }
 
     fun setSpriteNames(names: IntArray) {
@@ -46,11 +46,11 @@ open class GameEntity(protected val levelSurfaceView: LevelSurfaceView) {
     protected fun setSize() {
         try {
             width =
-                levelSurfaceView.baseGameActivity!!.spriteCache!!.getCachedSprite(rightSprites[0])!!
-                    .width
+                levelSurfaceView.baseGameActivity?.spriteCache?.getCachedSprite(rightSprites[0])?.width
+                    ?: 0
             height =
-                levelSurfaceView.baseGameActivity!!.spriteCache!!.getCachedSprite(rightSprites[0])!!
-                    .height
+                levelSurfaceView.baseGameActivity?.spriteCache?.getCachedSprite(rightSprites[0])?.height
+                    ?: 0
         } catch (e: Exception) {
             e.localizedMessage?.let { Log.d("Error", it) }
         }

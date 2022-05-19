@@ -43,7 +43,6 @@ abstract class BaseGameActivity : Activity(), LoaderManager.LoaderCallbacks<Any?
     protected var mainMenuLayout: LinearLayout? = null
     protected var menuRelativeLayout: RelativeLayout? = null
     protected var centralTextView: TextView? = null
-    protected var centralTextViewLayout: LinearLayout? = null
     protected var viewGroup: ViewGroup? = null
     protected var imageLoader: GameImagesResourceLoader? = null
     private var progressDialog: SpotsDialog? = null
@@ -51,17 +50,17 @@ abstract class BaseGameActivity : Activity(), LoaderManager.LoaderCallbacks<Any?
     var height = 0
     val changeCentralTextHandler: Handler = object : Handler() {
         override fun handleMessage(msg: Message) {
-            centralTextViewLayout?.visibility = View.VISIBLE
+            centralTextView?.visibility = View.VISIBLE
             val centralText = msg.obj as CentralText
             centralTextView?.text = centralText.text
             val animation1 = AlphaAnimation(0.0f, 1.0f)
             animation1.duration = 1000
-            centralTextViewLayout?.startAnimation(animation1)
+            centralTextView?.startAnimation(animation1)
         }
     }
     private val hideCentralTextHandler: Handler = object : Handler() {
         override fun handleMessage(msg: Message) {
-            centralTextViewLayout?.visibility = View.GONE
+            centralTextView?.visibility = View.GONE
         }
     }
     private val backToMainMenuHandler: Handler = object : Handler() {

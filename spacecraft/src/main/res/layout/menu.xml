@@ -16,19 +16,6 @@
         android:padding="20dp">
 
         <Button
-            android:id="@+id/continue_btn"
-            style="@style/RedBackButton"
-            android:text="@string/menu_continue"
-            android:visibility="gone" />
-
-        <View
-            android:id="@+id/continue_separator"
-            android:layout_width="match_parent"
-            android:layout_height="10dp"
-            android:orientation="horizontal"
-            android:visibility="gone" />
-
-        <Button
             android:id="@+id/play_button"
             style="@style/RedBackButton"
             android:text="@string/menu_play" />
@@ -40,24 +27,6 @@
             android:orientation="horizontal" />
 
         <Button
-            android:id="@+id/showAchievementsButton"
-            style="@style/RedBackButton"
-            android:text="@string/menu_achievements" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="10dp" />
-
-        <Button
-            android:id="@+id/showLeaderBoardButton"
-            style="@style/RedBackButton"
-            android:text="@string/menu_leader_board" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="10dp" />
-
-        <Button
             android:id="@+id/exit_button"
             style="@style/RedBackButton"
             android:text="@string/menu_exit" />
@@ -67,9 +36,9 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:contentDescription="@string/image_description"
         android:src="@drawable/gulupagameslogo" />
 </RelativeLayout>
